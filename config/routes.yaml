@@ -21,3 +21,18 @@ app_blog_index:
 app_index:
   path: /default/
   controller: App\Controller\DefaultController::index
+
+
+
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+# config/routes.yaml
+
+# the "app_blog_index" route name is not important yet
+app_show:
+  path: /Mon_Super_Article/
+  controller: App\Controller\BlogController::index
+
+
